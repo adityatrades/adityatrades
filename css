@@ -1,0 +1,307 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS variables */
+:root{
+    --navbar-height:59px;
+
+
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+
+}
+#navbar ul li a:hover{
+    background-color: red;
+    
+}
+
+/* Logo & Image */
+#logo{
+
+}
+
+#logo img{
+    height: 56px;
+    margin: 8px 14px;
+}
+
+
+/* List Items*/
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content:"";
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+
+}
+
+#navbar ul li{
+    color: wheat;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+   
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    
+    color: black;
+    
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column; 
+    padding: 300px 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.glaadblog.org/wp-content/uploads/2020/04/Forex-Trading.jpg') no-repeat center center/cover;
+    opacity: 1.2;
+}
+
+#home h1{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8em;
+    padding: 12px;
+
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Services Section */
+.center{
+    text-align: center;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+    
+   
+
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 20px;
+    background-color: rgb(235, 232, 228);
+
+}
+
+
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+
+    
+}
+.h-primary-center{
+   font-family: 'Bree Serif', serif;
+   /*margin: 10px 620px; */
+   font-size: 2.8rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+ 
+}
+.button-common{
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 138px;
+    display: flex;
+   
+}
+#button2{
+    background-color: tomato;
+    margin: 20px 138px;
+  
+}
+
+#button3{
+    margin: 10px 130px;
+}
+
+.center{
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* Client Section */
+#client_section{
+    padding: 20px;
+    
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#choose-us{
+    display: flex;
+    flex-direction: column;
+}
+.choos-us-photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+    
+}
+.choos-us-photos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+    
+}
+.choos-us-photos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  
+    
+    
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('https://wallpapercave.com/wp/wp6944127.jpg');
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+
+}
+#contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 80%;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+}
+#city{
+
+    margin: 10px;
+}
+#city label{
+    color: rebeccapurple;
+}
+
+#contact-box form{
+    width: 80%;
+    
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+#ph{
+    margin: -35px;
+
+}
+
+#ph label{
+    margin: auto;
+
+}
+
+#BB-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
